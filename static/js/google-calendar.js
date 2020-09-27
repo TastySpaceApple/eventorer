@@ -1,10 +1,10 @@
-const CLIENT_ID='139516380448-cl7386taph2j5p6j0o44k6j5gi6s9uu2.apps.googleusercontent.com'
+/*const CLIENT_ID='139516380448-cl7386taph2j5p6j0o44k6j5gi6s9uu2.apps.googleusercontent.com'
 const CLIENT_SECRECT='1Zv-IdBpt8b8WFGtLciVhZI1'
-const API_KEY='AIzaSyDwpPlLe4gcNbUphA1zJYhIQCQhtFmlcWo'
-/*
+const API_KEY='AIzaSyDwpPlLe4gcNbUphA1zJYhIQCQhtFmlcWo'*/
+
 const CLIENT_ID = '1007682027010-qf7id5o76np5h99uu525pl0dhbr4uhqc.apps.googleusercontent.com';
 const CLIENT_SECRET = 'QS5HQNOwLp3kWgPz1LgRkj23';
-const API_KEY = 'AIzaSyAXa7FQG4AZlgnGX1v18vKh2xZG-fAsNdc';*/
+const API_KEY = 'AIzaSyAXa7FQG4AZlgnGX1v18vKh2xZG-fAsNdc';
 
 // Array of API discovery doc URLs for APIs used by the quickstart
 const DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest"];
