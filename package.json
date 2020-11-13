@@ -1,15 +1,23 @@
 {
-  "name": "eventorer",
+  "name": "Eventorer",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "A minimal Electron application",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "electron ."
   },
-  "author": "",
-  "license": "ISC",
+  "repository": "",
+  "keywords": [
+    "Events",
+    "google",
+    "calendar"
+  ],
+  "author": "Idan Itzhaky",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^10.1.2"
+  },
   "dependencies": {
-    "express": "^4.17.1"
+    "googleapis": "^39.2.0"
   }
 }

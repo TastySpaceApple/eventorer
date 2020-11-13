@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; connect-src https://*.googleapis.com/;">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'; connect-src https://*.googleapis.com/;">
+    <title>Eventorer</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="main">
+      <h1>Eventorer</h1>
+      <a id="login-url"></a>
+      <section class="login-slides" current-slide="1">
+        <div class="login-slides-container">
+          <div class="slide">
+            <button type="button" id="btn-login">Login</button>
+          </div>
+          <div class="slide">
+            <input type="text" id="txt-login-code" placeholder="paste login code here" />
+            <button type="button" id="btn-login-with-code">GO</button>
+          </div>
+        </div>
+      </section>
+      <section class="events-editor hidden">
+        <p>Show Events After <input type="date" id="date-start" /></p>
+        <p class="events-editor-controls">
+          <button type="button" id="btn-refresh">Refresh List</button>
+          <button type="button" id="btn-delete-all">Delete All Displayed</button>
+          <button type="button" id="btn-delete-selected">Delete Selected</button>
+        </p>
+        <table id="events-list">
+
+        </table>
+      </section>
+    </section>
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
